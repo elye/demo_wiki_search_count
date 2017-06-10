@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wiki Search Count</string>
+    <string name="hint_search_string">Enter Search Text</string>
+    <string name="button_search">Check Search Count</string>
+</resources>
