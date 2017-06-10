@@ -1,6 +1,5 @@
 package com.elyeproj.wikisearchcount
 
-import com.google.gson.GsonBuilder
 import io.reactivex.Observable
 import retrofit2.http.GET
 import retrofit2.Retrofit

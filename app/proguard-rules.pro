@@ -30,3 +30,7 @@
 -keep class okio.** { *; }
 -dontwarn retrofit2.**
 -dontwarn okio.**
+
+-keep class com.elyeproj.wikisearchcount.Model** { *; }
+
+
