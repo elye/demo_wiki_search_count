@@ -10,9 +10,9 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    var disposable: Disposable? = null
+    private var disposable: Disposable? = null
 
-    val wikiApiServe by lazy {
+    private val wikiApiServe by lazy {
         WikiApiService.create()
     }
 
@@ -25,11 +25,6 @@ class MainActivity : AppCompatActivity() {
                 beginSearch(edit_search.text.toString())
             }
         }
-    }
-
-    override fun onResume() {
-        super.onResume()
-
     }
 
     private fun beginSearch(searchString: String) {
