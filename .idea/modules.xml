@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_wiki_search_count.iml" filepath="$PROJECT_DIR$/demo_wiki_search_count.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/demo_wiki_search_count-app.iml" filepath="$PROJECT_DIR$/app/demo_wiki_search_count-app.iml" group="demo_wiki_search_count/app" />
+      <module fileurl="file://$PROJECT_DIR$/experiment-demo_wiki_search_count.iml" filepath="$PROJECT_DIR$/experiment-demo_wiki_search_count.iml" group="demo_wiki_search_count" />
     </modules>
   </component>
 </project>
